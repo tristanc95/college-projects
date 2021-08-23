@@ -1,0 +1,58 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <title>MediaBox</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body style ="background-image: url(../images/bg02.png)">
+
+    <form id="form1" runat="server">
+
+    <div id="main">
+        <header>
+            <div id="logo">
+                <!-- class="logo_colour", allows you to change the colour of the text -->
+                <h1><a href="Default.aspx"><span class="logo_colour">Welcome to MediaBox!</span></a></h1>
+            </div>
+            <nav>
+                <ul class="sf-menu" id="nav">
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="Products.aspx">Products</a></li>
+                    <li><a href="Customers.aspx">Our Customers</a></li>
+                    <li><a href="Inventory.aspx">Inventory</a></li>
+                    <li><a href="ContactUs.aspx">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <footer>
+            <p><a href="Default.aspx">Home</a> | <a href="Products.aspx">Our Products</a> | <a href="Customers.aspx">Our Customers</a> | <a href="Inventory.aspx">Inventory</a> | <a href="ContactUs.aspx">Contact Us</a></p>
+            <p>Copyright &copy; MediaBox 2017 | Designed by: Tristan Conde | Website Last Updated: May 07th, 2017</p>
+        </footer>
+
+    </div>
+
+    </form>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+
+</body>
+
+</html>

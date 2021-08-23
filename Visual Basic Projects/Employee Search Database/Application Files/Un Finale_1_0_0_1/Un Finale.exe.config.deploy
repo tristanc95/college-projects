@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="Un_Finale.My.MySettings.Setting" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=&quot;C:\Users\user\Desktop\School 2K16 Fall\ISYS 3364\Visual Basic Projects and Assignments\Assignments\Final Assn\Un Finale\VBAccess.mdb&quot;"
+            providerName="System.Data.OleDb" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+</configuration>

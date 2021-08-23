@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Un Finale
+</name>
+</assembly>
+<members>
+<member name="T:Un_Finale.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Un_Finale.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Un_Finale.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Un_Finale.My.Resources.Resources.chord">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:Un_Finale.My.Resources.Resources.EmployeeList">
+<summary>
+  Looks up a localized string similar to Jack
+Christie
+Riley
+Michael
+Adam
+Disteny
+Tristan
+Jonathan
+Rachel
+Stephanie
+Roxanne
+Millie
+Lucy
+Joel
+Lincoln
+Lori
+Amy
+Rochelle
+Terry
+Larry
+.
+</summary>
+</member>
+<member name="P:Un_Finale.My.Resources.Resources.window95">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:Un_Finale.My.Resources.Resources.windows2K">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:Un_Finale.My.Resources.Resources.windows95">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+</members>
+</doc>
